@@ -1,0 +1,97 @@
+body{
+    background: #e5e5e5;
+    width: 100%;
+}
+
+.img-vector{
+    position: absolute;
+    top: 50px;
+    left: 50px;   
+     
+}
+.entrada-texto{
+    background: #e5e5e5;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    width: 680px;
+    height: 288px;
+    border: none;
+    text-transform: lowercase;
+    resize: none;
+}
+
+.saida-texto{
+    position: absolute;
+    left: 800px;
+    top: 40px;
+    right: 40px;
+    width: 400px;
+    height: 570px;
+    border: none;
+    border-radius: 32px;
+    resize: none;
+}
+.esconder{
+    position: absolute;
+    top: 80px;
+    left: 840px;
+}
+img + p{
+    width: 336px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: justify;
+}
+ p{
+    width: 336px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-criptografar{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    display: inline-block;
+    
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+.btn-descriptografar{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+.copiar{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    top: 500px;
+    left: 850px;
+    bottom: 150px;
+    
+    border-radius: 24px;
+}
+
+

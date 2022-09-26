@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <script src="comando.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<header>
+
+</header>
+
+<body>
+    <main>
+        <section class="decodificador">
+            <img src="Vector.png" class="img-vector">
+            <textarea id="entrada-texto" class="entrada-texto" placeholder="Digite seu texto."></textarea>
+
+            <textarea id="saida-texto" class="saida-texto" > </textarea>
+
+            <div id="esconder" class="esconder">
+
+                <img src="find.png" class="img-find">
+                <p>Nehuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                
+            </div>
+
+            <button class="btn-criptografar" onclick="criptografar(), esconder()" >Criptografar</button>
+
+            <button class="btn-descriptografar" onclick="descriptografar()" >Descriptografar</button>
+
+            <button class="copiar" onclick="copiaTexto()" >Copiar</button>
+        </section>
+            
+    </main>
+</body>
+
+
+
+
+
+
+</html>
